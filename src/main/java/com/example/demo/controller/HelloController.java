@@ -19,6 +19,6 @@ public class HelloController {
 
     @RequestMapping("/control")
     public String control() {
-        return "control";
+        return "control999";
     }
 }
