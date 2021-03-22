@@ -16,4 +16,9 @@ public class HelloController {
     public String rest() {
         return "redirect:/hello";
     }
+
+    @RequestMapping("/control")
+    public String control() {
+        return "control";
+    }
 }
